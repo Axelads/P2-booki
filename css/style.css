@@ -60,7 +60,7 @@ ul {
 }
 
 .navigation-hebergement, .navigation-activites {
-    padding-top: 15px;
+    padding-top: 18px;
 
      
 }
@@ -608,12 +608,17 @@ figure {
     width: 50%;
  }
 
+ .navigation-hebergement, .navigation-activites {
+    padding-top: 15px;
+
+}
+
  .navigation-hebergement:hover, .navigation-activites:hover {
     color: #0065FC;
     border-bottom: 3px solid #0065FC;
     border-top: none;
-    padding-top: 0;
-    margin-bottom: 0;
+    padding-bottom: 5px;
+    
 }
 
 h1 {
@@ -656,6 +661,7 @@ main .card-subtitle {
     justify-content: space-around;
     row-gap: 20px;
     column-gap: 15px;
+    width: 95%;
 
             }  
     
@@ -667,7 +673,7 @@ main .card-subtitle {
         font-size: 14px;
         padding: 15px 0px 15px 0px;
         margin: 0;
-        width: 225px;
+        width: 45%;
 }
 
 .cards-filtre i {
